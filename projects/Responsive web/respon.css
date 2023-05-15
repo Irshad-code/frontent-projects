@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+.main-container{
+    background-image: linear-gradient(to right top, #164c9d, #6d419d, #a32989, #c80166, #d8183a);
+    background-size: cover;
+}
+.top{
+    height:10vw;
+    background-color: black;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top p{
+    position: relative;
+    left: 500px;
+    font-weight: bolder;  
+}
+.logo{
+    width:6vw;
+    position: relative;
+    left: 100px;
+    top: 25px;;
+}
+.tops{
+    position: relative;
+    bottom:15vw;
+}
+table{
+   position: relative;
+    left: 580px;
+}
+td{
+    padding:1vw;
+}
+.ins{
+    width:2vw;
+}
+.you{
+    width:2vw;
+}
+.twi{
+    width:2vw;
+}
+.microsoft{
+    position: relative;
+    left: 550px;
+    top: 30px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.article{
+position: relative;
+right:5%;
+bottom:5%;
+width:50%;
+flat: right;
+}
+strong{
+    font-size: 50px;
+    position: relative;
+    left:130px;
+    top:70px;
+   
+}
+strong p{
+   position: relative;
+   left: 230px;
+   bottom: 160px;
+   font-size: 80px;
+}
+pre{
+    font-size: 15px;
+    position: relative;
+    bottom: 150px;
+    colo
+}
+.img{
+    position: relative;
+    left: 65vw;;
+    width: 30vw;
+    height: 30vw;
+    bottom: 30vw;
+    border-radius:50px;
+}
+.im{
+    width: 50%;
+    flot: left;
+}
+@media onl screen and ( min-width:800px){
+    .microsoft{
+        position: relative;
+        left: 550px;
+        bottom:40px;
+      
+        
+        font-weight: bolder;
+        font-size: 60px;
+    }
+    .tops{
+        position: relative;
+        bottom:20vw;
+        right: 250px;;
+    }
+    .tops p{
+        position: relative;
+        bottom:20px;
+
+    }
+    table{
+        position: relative;
+         left: 650px;
+     }
+     .img{
+       
+        left: 25vw;;
+        bottom: 18vw;
+    }
+
+}
+@media only screen and ( min-width:400px){
+
+
+}

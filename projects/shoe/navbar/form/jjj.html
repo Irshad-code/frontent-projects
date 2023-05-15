@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>*{
+        margin: 0;
+        padding: 0;
+    }
+        ul{
+            background-color: black;
+            overflow: hidden;
+
+          
+        }
+        li a{
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+            padding: 30px 20px;
+            display: inline-block;
+        }
+        ul li{
+            display: inline-block;
+            float: right;
+        }
+        ul li:hover{
+            background-color: red;
+        }
+        .home3{
+            background-color: grey;
+            color: white;
+            position: absolute;
+            min-height: 160px;
+            width: 108px;
+            display: none;
+        }
+     
+        .home3 li:hover{
+            background-color: #314536;
+        }
+        .home2 :hover.home3{
+            display: block;
+            
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="home2" href="">home</a>
+            <div class="home3">
+                <a href="">kitchen</a>
+                <a href="">room</a>
+                <a href="">fan</a>
+            </div>
+     </li>
+        <li><a href="">News</a></li>
+        <li><a href="">sports</a></li>
+        <li><a href="">about</a></li>
+
+    </ul>
+</body>
+</html>

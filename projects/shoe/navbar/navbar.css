@@ -1,0 +1,116 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.top{
+    position: absolute;
+    width:100vw;
+    height:20vh;
+    background-color:black;
+    color: white;
+    display:flex;
+
+    
+}
+.rt{
+    position: absolute;
+    
+}
+.lt img{
+    position: relative;
+    left: 10vw;
+    top: 5vh;
+    width: 4vw;
+    height:7vh;
+    display:flex;
+
+}
+table{
+    position: relative;
+    left: 25vw;
+    color: white;
+    font-weight: bold;
+    font-size:2vw;
+    text-align: center;
+    display:flex;
+   
+}
+tr,td{
+    padding-left: 3vw;
+    display: flex;
+}
+.sign{
+    position: relative;
+    width: 3vw;
+    left: 80vw;
+    top: 10vh;
+    bottom: 1vh;
+}
+.rt p{
+    position: relative;
+    left: 85.5vw;
+    bottom: 13vh;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.male{
+    position: relative;
+    width: 3vw;
+    left: 80vw;
+    bottom: 23vh;
+
+}
+.rt span{
+    position: relative;
+    left: 82vw;
+    bottom: 32.5vh;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.menu{
+    display: none;
+}
+
+@media screen and (max-width:580px){
+
+    table{
+        display: none;
+    }
+    .rt span{
+        position: relative;
+        left: 75vw;
+        bottom: 27vh;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+    .rt p{
+        position: relative;
+        left: 82vw;
+        bottom: 10vh;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+    .lt img{
+        width: 9vw;
+        height:9vh;
+    }
+    .sign{
+        position: relative;
+        width: 7vw;
+        left: 73vw;
+        bottom: 8vh;
+    }
+    .male{
+        position: relative;
+        width: 6vw;
+        left: 74vw;
+        bottom: 19vh;
+}
+.menu{
+    position: relative;
+    display: inline-block;
+    width: 7vw;
+    left:40vw;
+    bottom: 26vh;
+}
+}
