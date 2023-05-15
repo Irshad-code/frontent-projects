@@ -1,0 +1,259 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+.main-body{
+    background-color:#240C7C;
+    height: 750px;
+}
+.triangle{
+    position: relative;
+    right:25px;
+    filter: blur(4px);
+    width: 150px;
+}
+.circle{
+    position: relative;
+    top: 550px;
+    left:50px;;
+    filter: blur(4px);
+    width: 200px;
+}
+.square{
+   width:50px;
+   position: relative;
+   left: 600px;
+   filter: blur(4px);
+   bottom: 120px;
+}
+.circle2{
+    position: relative;
+    top: 550px;
+    left:850px;;
+    filter: blur(4px);
+    width: 200px;
+}
+.h1airmax{
+    position: relative;
+    letter-spacing:40px;
+    font-size: 80px;
+    font-weight: bold;
+    color:#cc6e16;
+    opacity: 0.5;
+    left: 750px;;
+    top: 290px;
+}
+.square2{
+    width:100px;
+    position: relative;
+    right: 550px;
+    filter: blur(4px);
+    top:250px;
+    z-index: 2;
+
+ }
+.section{
+    width: 1000px;
+    height: 500px;
+    background-color:#04085e;
+    background-repeat:no-repeat;
+   position: relative;
+   bottom: 300px;
+left: 100px;
+    
+}
+.sectionl{
+    width:50%;
+    height: 100%;
+    background-color:orange;
+    border-radius:0 50% 50% 0;
+    float: left;
+    
+}
+.shoe{
+    position: relative;
+    top: 120px;
+    left:50px;
+}
+.sectionr{
+    width:50%;
+    height: 100%;
+    
+    float:right;
+}
+.sectionrA{
+    color: red;
+    font-size:40px;
+    font-weight: bold;
+}
+.icon{
+    position: relative;
+    left: 300px;
+    bottom:60px;
+}
+.buying{
+    position: relative;
+    left: 350px;
+    bottom:60px;
+}
+.contacts{
+    position: relative;
+    left: 325px;
+    bottom:60px;
+}
+.fashion{
+    font-size: 30px;
+    color: white;
+}
+.men{
+    position: relative;
+    bottom: 20px;
+    font-size:50px;
+    color: white;
+}
+.price{
+    position: relative;
+    font-size:35px;
+    bottom: 40px;
+    color: white;
+}
+.size{
+    position: relative;
+    bottom: 70px;
+    font-size: 30px;
+    color: white;
+    
+}
+.color{
+    position: relative;
+    bottom: 80px;
+    font-size: 30px;
+    color: white;
+
+}
+.color2{
+    position: relative;
+    width: 50px;
+}
+.yellow{
+    position: relative;
+    left: 150px;
+    bottom: 140px;;
+    width:30px;
+}
+.red{
+    position: relative;
+    left: 150px;
+    bottom: 140px;;
+    width:30px;
+}
+.black{
+    position: relative;
+    left: 150px;
+    bottom: 140px;;
+    width:30px;
+}
+.table{
+    position: relative;
+    bottom: 130px;
+    width:150px;
+    left: 10px;
+    height:2vw;
+    color: white;
+}
+.buy{
+    width:20%;
+    heigt:3%;
+}
+span{
+    position: relative;
+    font-size: 17px;
+    display: inline;
+    bottom:5px;
+    left: 30px;
+    
+}
+.span1{
+    position: relative;
+    font-size: 17px;
+    display: inline;
+    bottom:10px;
+    left: 60px;
+}
+.cart{
+    width:30%;
+    position: relative;
+    top: 3px;
+    left:50px;
+
+    
+}
+.span2{
+    position: relative;
+    font-size: 13px;
+    display:inline;
+    bottom:20px;
+    left: 50px;
+
+}
+.span3{
+    position: relative;
+    font-size: 13px;
+    display:inline;
+    bottom:15px;
+    left: 80px;
+}
+.span4{
+    position: relative;
+    font-size: 13px;
+    display:inline;
+    bottom:50px;
+}
+
+.year{
+    width:25%;
+    position: relative;
+    top: 8px;
+}
+.return{
+    width:25%;
+    position: relative;
+   top: 15px;
+   left:60px;
+
+}
+.free{
+    position: relative;
+    left: 360px;
+    bottom: 210px;
+    color: white;
+    width:7%;
+}
+button{
+    position: relative;
+    font-size: 30px;
+    border-radius: 20px;
+    background:blue;
+    padding: 5px 20px;
+    box-shadow:0 5px 10px yellow;
+    left:20px;
+    top:60px;
+ }
+ button:hover{
+    background-color:black;
+ }
+ button:active{
+    transform: translateY(4px);
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+ .sectionrB{
+    position: relative;
+    bottom: 60px;
+ }
+

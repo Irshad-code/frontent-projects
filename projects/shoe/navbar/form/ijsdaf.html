@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=100.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      ul{
+        background-color: black;
+        list-style-type: none;
+        overflow: hidden;
+        
+       
+        
+       
+      }
+       li a{
+        text-decoration: none;
+        color:white;
+        display: inline-block;
+        padding: 4vh 4vh; 
+        font-size: 30px;
+       }
+       li{
+        float:right;
+       }
+       .home2{
+        background-color: red;
+       }
+       a:hover:not(.home2){
+        background-color: blue;
+       }
+       .home1:hover .home3{
+        display:block;
+       }
+       .home3 a{
+        display:block;
+        padding: 15px 24px;
+       
+        
+       }
+       .home3{
+        background-color:grey;
+        position: absolute;
+        height:200px;
+        display: none;
+       }
+       .hover2{
+         background-color: green;
+         width:8%;
+         height: 100px;
+         display: none;
+       }
+       .hover2 p{
+        padding: 30px ;
+      text-align: center;
+      font-size: 20px;
+      
+       }
+       .hover1:hover .hover2{
+        display: block;
+       }
+       .hover1:hover .hi{
+        display: block;
+        animation: anim 2s 2;
+       }
+      
+       .img2{
+        position: relative;
+        display: none;
+       }
+       .img:hover .img2{
+        display: block;
+
+       }
+       .img2 .arr{
+        position: absolute;
+        left:5px;
+        top:5px;
+       }
+       .immg2{
+        width: 30px;
+        position: absolute;
+        left: 50px;
+       }
+       .container{
+        counter-reset:hi;
+        border: 10px solid transparent;
+        padding: 10px;
+        border-image: url(icons8-right-arrow-64.png) 25 round ;
+        width: 10vw;
+        border-image-width: 5px;
+       }
+       h2::before{
+        counter-increment: hi;
+        content: "hi"counter(hi)":";
+       }
+       .hover1{
+        position: relative;
+       }
+       .hi{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        display: none;
+        top:10vh;
+        margin-top: 41vh;
+       }
+       @keyframes anim {
+        0%{background-color: white; left:0px; top:0px;}
+        50%{background-color: blue; left:100px; top:0px;}
+        100%{background-color: black;}
+       }
+       .mask1 {
+  mask-image: url(icons8-add-user-male-30.png );
+  mask-repeat: no-repeat;
+       }
+   
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="home1"><a href="#home" class="home2">Home</a>
+        <div class="home3">
+        <a href="">kitchen</a>
+        <a href="">room</a>
+        <a href="">tv</a>
+        </div></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+     <div class="hover1">
+      <p>mouse over me</p>
+      <div class="hover2">
+        <p>hi hello</p>
+      </div> <div class="hi"></div>
+     </div>
+     <div class="img">
+      <img class="immg" src="icons8-right-arrow-64.png" alt="">
+      <div class="img2">
+         <img class="immg2" src="icons8-right-arrow-64.png" alt="">
+        <p class="arr">arrow</p>
+      </div>
+     </div><div class="container">
+     <h2>sfdg</h2>
+     <h2>ujyfgs</h2>
+     <h2>jdsgf</h2></div>
+     <div class="mask1">
+     <img src="IMG-20201007-WA0007.jpg" alt="">
+     </div>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdlivr.net/npm/remicicon@2.5.0/fonts/remixiconr.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        *{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: darksalmon;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    padding: 28px 12%;
+    transition: all 0.5 ease-in-out;
+
+}
+.logo{
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    margin-right: 3px;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    margin-left: 15PX;
+
+}
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: rgb(255, 0, 0);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0px;
+    margin: 0px 30px;
+    transition: all 0.5s ease-in-out;
+}
+.navbar a:hover{
+    color: greenyellow;
+  
+}
+.navbar a.active{
+    color: rgb(0, 255, 229);
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main a{
+        margin-right: 25px;
+      
+        margin-left: 10px;
+        color: rgb(255, 0, 51);
+        font-size: 1.1rem;
+        transition: all 0.5s ease-in-out;
+        font-weight: 500;
+}
+.main a:hover{
+    color: greenyellow;
+}
+.user{
+    display: flex;
+    align-items: center;
+
+}
+.user i{
+    color: wheat;
+    font-size: 28px;
+    margin-right: 7px;
+}
+.navbar .menu{
+    color: transparent;
+ }
+
+
+
+
+@media(max-width : 1280px){
+    header{
+        padding: 14px 2%;
+        transition: .2s;
+    }
+    .navbar a{
+        padding: 5px 0px;
+        margin: 0px 20px;
+    }
+    .navbar .menu{
+        color: transparent;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        text-decoration: underline;
+     }
+ 
+}
+
+@media(max-width : 1090px)
+{
+ 
+    .navbar .menu{
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        text-decoration: underline;
+     }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: 2%;
+        width: 100px;
+        height: 40px;
+        transition: all 1.5s ease-in-out;
+        background-color:rgb(255, 184, 251);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px; 
+        overflow:hidden;
+    }
+
+    .navbar:hover{
+        position: absolute;
+        top: 100%;
+        right: 2%;
+        width: 270px;
+        height: 42vh;
+    }
+
+
+    .navbar a{
+        display: block;
+        margin: 12px 0;
+        justify-content: space-around;
+        padding: 0px 25px;
+        transition: all .5s ease-in-out;
+    }
+    .navbar a:hover{
+       color: black;
+       text-shadow: 5px 5px 30px black;
+       transform :translateY(5px);
+    }
+}
+    </style>
+    
+    <title>Task #6</title>
+</head>
+<body>
+    <header>
+        <a href="###" class="logo">LOGO</a>
+
+        <ul class="navbar">
+            <li class="menu">MENU</li>
+            <li><a href="###" class="active">HOME</a></li>
+            <li><a href="###">ABOUT</a></li>
+            <li><a href="###">SERVICES</a></li>
+            <li><a href="###">CONTACT</a></li>
+            <li><a href="###">BLOG</a></li>
+        </ul>
+        <div class="main">
+           <a href="###">SIGN IN</a>
+            <a href="#">Regestrer</a>
+        </div>
+    </header>
+    
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        .sd{
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top1">
+
+        </div>
+        <div class="top2">
+           <p>APPLICATION FOR MEA SCHOLARSHIP</p>
+        </div>
+    </header>
+    <section>
+        <div class="center">
+            <form action="jksn.php" target="_blank" method="get" autocomplete="on">
+            <table>
+                <tr>
+                    <td><label for="first name">First Name:</label>
+                          <input type="text" name="first name" >  </td>
+                    <td><label for="last name">Last Name:</label>
+                            <input type="text" name="last name" placeholder="First name" >  </td>
+                </tr>
+                <tr><td>
+                    <label for="college-name">College Name:</label>
+                    <select name="college-name" id="">
+                        <optgroup label="keam">
+                        <option value="gect">gect</option>
+                        <option value="cet">cet</option>
+                        <option value="tkm">tkm</option>
+                    </optgroup>
+                    <optgroup label="jee">
+                        <option value="nit-calicut">nit nit-calicut</option>
+                        <option value="nit">nit</option>
+                        <option value="nit-chennai">nit-chennai</option>
+                    </optgroup>
+                    </select>
+                </td>
+                <td> <label for="birth">Date of birth</label>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label>
+                <input type="email" name="email" id=""></td>
+                <td> <label for="male">male</label>
+                <input type="radio" name="male" value="male"></td>
+                <td> <label for="female">female</label>
+                <input type="radio" name="female" value="female"></td>
+                <td> <label for="other">others</label>
+                <input type="radio" name="other" value="other"></td>
+            </tr>
+        </table>
+                    <fieldset>
+                        <legend> Bank account details</legend>
+                        <label for="account-number">Account number</label>
+                        <input class="sd" type="number" max="16" min="16">
+                        <label for="ifsc">IFSC CODE</label>
+                       <input type="text" name="ifsc" id="" max="5" min="5">
+                       <input type="submit">
+                    </fieldset>
+                <button>Register</button>
+                <input type="reset">
+        </form>
+
+        </div>
+    </section>
+</body>
+</html>
